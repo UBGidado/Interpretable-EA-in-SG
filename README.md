@@ -27,35 +27,6 @@ A systematic comparison of three modeling paradigms for directed relational emot
 
 **Main finding:** The interpretable Aigents system achieves statistically equivalent performance to RoBERTa-3turn (overlapping 95% bootstrap CIs), formally refuting the performance–interpretability dilemma for this task. Few-shot Llama-3 significantly underperforms both alternatives.
 
----
-
-## Repository Structure
-
-```
-.
-├── Notebooks/
-│   ├── 01_relation_extraction_deberta.ipynb   # DeBERTa-v3 RE pipeline
-│   ├── 02_silver_label_generation_llama3.ipynb # LLM-assisted annotation
-│   ├── 03_roberta_finetuning_1turn.ipynb      # RoBERTa-1turn fine-tuning
-│   ├── 04_roberta_finetuning_3turn.ipynb      # RoBERTa-3turn fine-tuning
-│   ├── 05_aigents_evaluation.ipynb            # Rule-based evaluation
-│   └── 06_llama3_ablation.ipynb               # Few-shot LLM ablation
-│
-├── data/
-│   ├── dialogre_v2/                           # DialogRE v2 dataset
-│   ├── gold_standard_150.json                 # 150-sample annotated test set
-│   └── silver_labels_1179.json                # LLM-generated training labels
-│
-├── deberta-v3-large_model/                    # Fine-tuned DeBERTa-v3 checkpoint
-│
-├── Dockerfile                                 # Aigents Docker environment
-├── docker-compose.yml                         # Docker Compose configuration
-├── requirements_aigents.txt                   # Dependencies for Aigents (CPU)
-├── requirements_colab.txt                     # Dependencies for Colab (GPU)
-└── README.md
-```
-
----
 
 ## Setup and Installation
 
