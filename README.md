@@ -6,7 +6,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Aigents-2496ED?logo=docker)](https://www.docker.com)
 [![Colab](https://img.shields.io/badge/Colab-RoBERTa%20%7C%20Llama--3-F9AB00?logo=googlecolab)](https://colab.research.google.com)
 
-> **Published at MathAI 2026** — Department of Mathematics & Mechanics, Novosibirsk State University
+> **Published at [Mathematics & AI 2026 Journal](https://enigma.ist/j/mathematics-ai/1/2/10)** — Department of Mathematics & Mechanics, Novosibirsk State University
 
 A systematic comparison of three modeling paradigms for directed relational emotion attribution in social graphs:
 **Aigents** (rule-based), **RoBERTa-GoEmotions** (fine-tuned Transformer), and **Llama-3-8B** (few-shot LLM).
