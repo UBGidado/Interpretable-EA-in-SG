@@ -271,6 +271,8 @@ If you use this code or data in your research, please cite:
   address   = {Novosibirsk, Russia},
   institution = {Department of Mathematics \& Mechanics,
                  Novosibirsk State University}
+  publisher  = Mathematics & AI Journal  2026 
+  url       = https://enigma.ist/j/mathematics-ai/1/2/10
 }
 ```
 
